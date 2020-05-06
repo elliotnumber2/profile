@@ -1,0 +1,100 @@
+body{
+  background-image: url("images/jam.jpg");
+  background-size: cover;
+  /*background: rgb(245,245,245);*/
+  color: #4E6BC9;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+}
+h1{
+  font-family: 'Berkshire Swash', cursive;
+  color: #CC4BC2;
+  font-weight: lighter;
+  font-size: 55px;
+  line-height: 37px;
+}
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  color: #FE5D9F;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 25px;
+}
+a {
+  color: #53D8FB;
+}
+a:hover {
+  text-decoration: none;
+  color: #E16F7C;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-cntr {
+  text-align: center;
+}
+
+.card {
+  background: rgb(250,220,220);
+  margin: 20px 0px;
+  padding: 40px;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border: 5px; solid lightgrey;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .img-circle {
+  width: 350px;
+  }
+  h1{
+  font-size: 40px;
+  }
+  body{
+  font-size: 22px;
+  background-size: cover;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+  width: 200px;
+  }
+  h1{
+  font-size: 30px;
+  }
+  body{
+  font-size: 16px;
+  background-size: cover;
+  }
+}
